@@ -1,0 +1,59 @@
+.main-header {
+
+
+}
+
+
+.main-header h1 {
+	font-family: 'Damion', cursive;
+	font-size: 150px;
+}
+
+.main {
+	width: 800px;
+}
+
+input.input-user{
+	width: 100%;
+	margin-top: 70px;
+	border: 2px solid;
+	border-radius: 25px;
+	-webkit-box-shadow: 3px 10px 54px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 3px 10px 54px 0px rgba(0,0,0,0.75);
+	box-shadow: 3px 10px 54px 0px rgba(0,0,0,0.75);
+	transition-property: height;
+  transition-duration: .3s, 1s;
+  transition-timing-function: linear, ease-in;
+  transition-delay: 0s, 3s;
+}
+
+input.input-user:focus {
+	
+	height: 70px;
+}
+
+
+.name {
+	margin-top: 50px;
+}
+
+.card-head {
+	padding: 40px;
+	border: 2px solid;
+	margin-bottom: 35px;
+	-webkit-box-shadow: 0px 5px 7px -1px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 5px 7px -1px rgba(0,0,0,0.75);
+	box-shadow: 0px 5px 7px -1px rgba(0,0,0,0.75);
+
+}
+
+.card-head h4 {
+	font-size: 35px;
+	font-family: 'Cutive Mono', monospace;
+	font-weight: bold;
+}
+
+.card-head p {
+	font-family: 'Cutive Mono', monospace;
+	font-size: 20px;
+}
